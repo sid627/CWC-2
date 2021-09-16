@@ -6,7 +6,7 @@ from datetime import datetime
 import plotly.graph_objects as go
 
 
-with open('C:/Users/siddh/Downloads/Cummins Problem Statement/Cummins Problem Statement/Stock List.json') as f:
+with open('Stock List.json') as f:
     data = json.load(f)
 
 close=[]
